@@ -5,4 +5,3 @@
     define('DB_USER', 'b4794142bf803e');
     define('DB_PASS', '0ac5fb60');
     define('DB_NAME', 'heroku_f05cb4538343a54');
-?>
