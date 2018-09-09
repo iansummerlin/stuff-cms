@@ -3,7 +3,7 @@
 		<h2 class="heading-2">Say something</h2>
 		<form action="" method="POST" role="form">
 			<?php 
-				if (!isset($_SESSION['username'])) {
+				if (!checkUserStatus()) {
 					echo "
 						<div class='row form-group'>
 							<div class='col-md-6'>

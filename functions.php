@@ -417,6 +417,8 @@
 
     function guestUserPost() 
     {
+        global $con;
+        
         $post_id            = mysqli_real_escape_string($con, ($_GET['post_id']));
         $comment_first_name = mysqli_real_escape_string($con, ($_POST['comment_first_name']));
         $comment_last_name  = mysqli_real_escape_string($con, ($_POST['comment_last_name']));
@@ -438,7 +440,7 @@
                                                      comment_content, comment_status,     comment_date)
 
                                              VALUES ($post_id,          '$comment_first_name', '$comment_last_name', '$comment_email', 
-                                                     '$comment_content', 'unapproved',           now())";
+                                                    '$comment_content', 'unapproved',           now())";
     
             $comment_query = mysqli_query($con, $comment_insert);
 
