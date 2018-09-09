@@ -6,8 +6,8 @@
                     <?php 
                         if (isset($_POST['feat_post_1'])) 
                         {
-                            $feat_post_id = $_POST['feat_post_id'];
-                            $feat_img = $_FILES['feat_img']['name'];
+                            $feat_post_id   = $_POST['feat_post_id'];
+                            $feat_img       = $_FILES['feat_img']['name'];
                             $feat_img_temp  = $_FILES['feat_img']['tmp_name'];
                             
                             if (($feat_post_id === 0) || (empty($feat_img))) 
@@ -20,7 +20,10 @@
                             {
                                 move_uploaded_file($feat_img_temp, "../img/$feat_img");
                         
-                                $feat_update = "UPDATE featured SET feat_img = '$feat_img', feat_post_id = $feat_post_id WHERE feat_post_id = $feat_post_id";
+                                $feat_update  = "UPDATE featured SET   feat_img     = '$feat_img', 
+                                                                       feat_post_id = $feat_post_id 
+                                                                 WHERE feat_post_id = $feat_post_id";
+                                                                     
                                 $update_query = mysqli_query($con, $feat_update);
                         
                                 checkSuccess($update_query);
@@ -69,7 +72,7 @@
                                         {
                                             $post_id     = $row['post_id'];
                                             $post_title  = $row['post_title'];
-                                            $post_image = $row['post_img'];
+                                            $post_image  = $row['post_img'];
 
                                             echo "
                                                 <option value='$post_id'>$post_title</option>
