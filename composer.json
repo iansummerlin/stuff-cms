@@ -2,6 +2,6 @@
     "name": "STUFF",
     "description":  "Content Management System",
     "autoload": {
-        "files": ["functions.php"]
+        "files": ["functions.php", ["/admin/functions.php"]]
     }
 }
