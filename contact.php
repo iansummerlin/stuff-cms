@@ -24,10 +24,10 @@
 						if (isset($_POST['submit'])) 
 						{
 							$to         = "isummerlin95@gmail.com";
-							$first_name = mysqli_real_escape_string($con, $_POST['first_name']);
-							$last_name  = mysqli_real_escape_string($con, $_POST['last_name']);
+							$first_name = $_POST['first_name'];
+							$last_name  = $_POST['last_name'];
 							$subject    = wordwrap($_POST['subject'], 70);
-							$message    = mysqli_real_escape_string($con, $_POST['message']);
+							$message    = $_POST['message'];
 							$header     = "FROM: " . $_POST['email'];
 
 							$mail = mail($to, $subject, $message, $header);
