@@ -27,7 +27,9 @@
 							?>
 						</ul>
 					</div>
+					<?php include 'partials/footer.php' ?>
+
 				</div>
+
 			</div>
 		</div>
-<?php include 'partials/footer.php' ?>

@@ -84,5 +84,5 @@
 				</div>
 			</div>
 		</div>
-<?php include 'partials/footer.php' ?>
+"m<?php include 'partials/footer.php' ?>
 
