@@ -22,8 +22,9 @@
                             <input type="submit" name="login" value="Login" class="btn btn-primary">
                         </div>
                     </form>	
+                    <?php include 'partials/footer.php' ?>
+
                 </div>
             </div>
         </div>
-<?php include 'partials/footer.php' ?>
 

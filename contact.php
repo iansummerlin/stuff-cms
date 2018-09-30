@@ -81,8 +81,9 @@
 							</form>	
 						</div>
 					</div>
+					<?php include 'partials/footer.php'; ?>
+
 				</div>
 			</div>
 		</div>
-"m<?php include 'partials/footer.php' ?>
 

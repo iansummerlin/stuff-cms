@@ -36,8 +36,9 @@
                             <input type="submit" name="register" value="Register" class="btn btn-primary">
                         </div>
                     </form>	
+                    <?php include 'partials/footer.php' ?>
+
                 </div>
             </div>
         </div>
-<?php include 'partials/footer.php' ?>
 
