@@ -52,11 +52,11 @@
             }
         ?>
     </div>
-    <div class="side">
+    <!-- <div class="side">
         <h2 class="sidebar-heading">Subscribe</h2>
         <div class="form-group">
             <input type="text" class="form-control form-email text-center" id="email" placeholder="Enter your email">
             <button type="submit" class="btn btn-primary btn-subscribe">Subscribe</button>
         </div>
-    </div>
+    </div> -->
 </div>
