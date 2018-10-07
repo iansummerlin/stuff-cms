@@ -2,8 +2,10 @@
 	<div id="colorlib-container"> 
 		<div class="container">
 			<div class="row row-pb-md">
+			<?php displaySearchResults(); ?>
 				<?php include 'partials/sidebar.php' ?>
-                <?php displaySearchResults(); ?>
+			</div>
+			<div class="row">
+				<?php include 'partials/footer.php' ?>
 			</div>
 		</div>
-<?php include 'partials/footer.php' ?>

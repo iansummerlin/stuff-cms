@@ -27,10 +27,12 @@
 							<?php 
 								displayPostComments();
 							?>
+							<?php include 'partials/footer.php' ?>
 						</div>
 					</div>
 				</div>
+
 			</div>
 		</div>
 	</div>
-<?php include 'partials/footer.php' ?>
+</div>
