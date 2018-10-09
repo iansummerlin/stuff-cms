@@ -4,6 +4,7 @@
 		<div class="container">
 			<div class="row row-pb-md">
 				<?php include 'partials/sidebar.php' ?>
+				</div>
 				<?php displayPostPreview(); ?>
 				<div class="row">
 					<div class="col-md-8 text-center">

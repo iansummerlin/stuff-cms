@@ -4,6 +4,7 @@
 		<div class="container">
 			<div class="row">
 				<?php include 'partials/sidebar.php' ?>
+</div>
 				<div class="col-md-9 content">
 					<div class="row row-pb-lg">
 						<div class="col-md-12">
@@ -27,12 +28,15 @@
 							<?php 
 								displayPostComments();
 							?>
-							<?php include 'partials/footer.php' ?>
 						</div>
+
 					</div>
+					<?php include 'partials/footer.php' ?>
+
 				</div>
 
 			</div>
+
 		</div>
 	</div>
 </div>

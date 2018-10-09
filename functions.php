@@ -450,7 +450,7 @@
         }
     }
 
-    function PostComments() 
+    function displayPostComments() 
     {
         global $con, $post_id;
         
