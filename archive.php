@@ -5,5 +5,9 @@
 				<?php include 'partials/sidebar.php' ?>
 				<?php displayArchivedPosts(); ?>
 			</div>
+			<div class="row">
+				<?php include 'partials/footer.php' ?>
+			</div>
 		</div>
-<?php include 'partials/footer.php' ?>
+	</div>
+</div>

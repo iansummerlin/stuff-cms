@@ -59,3 +59,4 @@
             <button type="submit" class="btn btn-primary btn-subscribe">Subscribe</button>
         </div>
     </div> -->
+</div>

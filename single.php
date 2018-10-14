@@ -4,7 +4,6 @@
 		<div class="container">
 			<div class="row">
 				<?php include 'partials/sidebar.php' ?>
-</div>
 				<div class="col-md-9 content">
 					<div class="row row-pb-lg">
 						<div class="col-md-12">
