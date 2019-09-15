@@ -1,4 +1,4 @@
-<?php include 'partials/header.php' ?>
+<?php include 'includes/partials/header.php' ?>
     <?php 
         loginUser();
     ?>
@@ -22,7 +22,7 @@
                             <input type="submit" name="login" value="Login" class="btn btn-primary">
                         </div>
                     </form>	
-                    <?php include 'partials/footer.php' ?>
+                    <?php include 'includes/partials/footer.php' ?>
 
                 </div>
             </div>

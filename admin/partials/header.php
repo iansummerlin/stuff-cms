@@ -47,8 +47,8 @@
 </head>
 <body>
     <div class="wrapper">
-            <?php include 'partials/sidebar.php' ?>
-            <?php include 'partials/navigation.php' ?>
+            <?php include 'includes/partials/sidebar.php' ?>
+            <?php include 'includes/partials/navigation.php' ?>
             <div class="content">
                 <div class="container-fluid">
                     <div class="row">

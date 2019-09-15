@@ -1,4 +1,4 @@
-<?php include 'partials/header.php' ?>
+<?php include 'includes/partials/header.php' ?>
     <?php 
         updatePostStatus();
         deletePost();
@@ -34,4 +34,4 @@
             </div>
         </div>
     </div>
-<?php include 'partials/footer.php' ?>
+<?php include 'includes/partials/footer.php' ?>

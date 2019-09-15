@@ -1,4 +1,4 @@
-<?php include 'partials/header.php' ?>
+<?php include 'includes/partials/header.php' ?>
 	<div id="colorlib-container">
 		<div class="container">
 			<div class="row">
@@ -81,7 +81,7 @@
 							</form>	
 						</div>
 					</div>
-					<?php include 'partials/footer.php'; ?>
+					<?php include 'includes/partials/footer.php'; ?>
 
 				</div>
 			</div>

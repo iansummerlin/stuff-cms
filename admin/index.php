@@ -1,4 +1,4 @@
-<?php include 'partials/header.php' ?>
+<?php include 'includes/partials/header.php' ?>
     <div class="row">
         <div class="col-lg-3 col-md-6">
             <?php $post_count = tableCount('posts'); ?>
@@ -124,4 +124,4 @@
             </div>
         </div>
     </div>
-<?php include 'partials/footer.php' ?>
+<?php include 'includes/partials/footer.php' ?>

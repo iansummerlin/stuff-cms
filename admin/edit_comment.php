@@ -1,4 +1,4 @@
-<?php include 'partials/header.php' ?>
+<?php include 'includes/partials/header.php' ?>
     <div class="col-lg-12">
         <?php 
             editComment();
@@ -21,4 +21,4 @@
                     </form>
                 </div>
             </div>
-<?php include 'partials/footer.php' ?>
+<?php include 'includes/partials/footer.php' ?>

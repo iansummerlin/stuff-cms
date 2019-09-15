@@ -1,4 +1,4 @@
-<?php include 'partials/header.php' ?>
+<?php include 'includes/partials/header.php' ?>
     <div id="colorlib-container">
         <div class="container">
             <div class="row">
@@ -36,7 +36,7 @@
                             <input type="submit" name="register" value="Register" class="btn btn-primary">
                         </div>
                     </form>	
-                    <?php include 'partials/footer.php' ?>
+                    <?php include 'includes/partials/footer.php' ?>
 
                 </div>
             </div>

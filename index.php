@@ -1,9 +1,9 @@
-<?php include 'partials/header.php' ?>
-<?php include 'partials/slider.php' ?>
+<?php include 'includes/partials/header.php' ?>
+<?php include 'includes/partials/slider.php' ?>
 	<div id="colorlib-container"> 
 		<div class="container">
 			<div class="row row-pb-md">
-				<?php include 'partials/sidebar.php' ?>
+				<?php include 'includes/partials/sidebar.php' ?>
 				<?php displayPostPreview(); ?>
 				<div class="row">
 					<div class="col-md-8 text-center">
@@ -27,7 +27,7 @@
 							?>
 						</ul>
 					</div>
-					<?php include 'partials/footer.php' ?>
+					<?php include 'includes/partials/footer.php' ?>
 
 				</div>
 

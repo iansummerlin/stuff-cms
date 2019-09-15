@@ -1,4 +1,4 @@
-<?php include 'partials/header.php' ?>
+<?php include 'includes/partials/header.php' ?>
     <?php 
         editPost();
     ?>
@@ -68,4 +68,4 @@
             </form>
         </div>
     </div>
-<?php include 'partials/footer.php' ?>
+<?php include 'includes/partials/footer.php' ?>

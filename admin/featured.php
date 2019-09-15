@@ -1,4 +1,4 @@
-<?php include 'partials/header.php' ?>
+<?php include 'includes/partials/header.php' ?>
     <div class="row">
         <div class="col-lg-12">
             <div class="card">
@@ -9,4 +9,4 @@
             </div> 
         </div>
     </div>
-<?php include 'partials/footer.php' ?>
+<?php include 'includes/partials/footer.php' ?>

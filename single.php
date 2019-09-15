@@ -1,9 +1,9 @@
-<?php include 'partials/header.php' ?>
+<?php include 'includes/partials/header.php' ?>
 <?php postComment(); ?>
 	<div id="colorlib-container">
 		<div class="container">
 			<div class="row">
-				<?php include 'partials/sidebar.php' ?>
+				<?php include 'includes/partials/sidebar.php' ?>
 				<div class="col-md-9 content">
 					<div class="row row-pb-lg">
 						<div class="col-md-12">
@@ -12,7 +12,7 @@
 							</div>
 						</div>
 					</div>
-					<?php include 'partials/comment_form.php' ?>
+					<?php include 'includes/partials/comment_form.php' ?>
 					<div class="row row-pb-lg">
 						<div class="col-md-12">
 							<?php 
@@ -30,7 +30,7 @@
 						</div>
 
 					</div>
-					<?php include 'partials/footer.php' ?>
+					<?php include 'includes/partials/footer.php' ?>
 
 				</div>
 
